@@ -1,0 +1,25 @@
+.bar {
+  height: 30px;
+  width: 100%;
+  background-color: #555050;
+  /* light gray */
+  padding: 4px 12px;
+  /* minimal padding */
+  display: flex;
+  align-items: center;
+  /* vertically center items */
+  gap: 16px;
+  /* space between items */
+  position: fixed;
+  /* stays at top */
+  top: -15px;
+  left: 0;
+  z-index: 1000;
+  /* stays above content */
+  box-sizing: border-box;
+  rotate: -1deg;
+}
+
+.bar>p {
+  color: #e6e1e2;
+}
